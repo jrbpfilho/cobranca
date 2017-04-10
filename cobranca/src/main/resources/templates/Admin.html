@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:th="http://www.thymeleaf.org"
+		xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+		layout:decorator="LayoutPadrao">
+<head>
+	<title>Página do Administrador</title>
+
+</head>
+
+<section layout:fragment="conteudo">
+
+<form class="form-horizontal" method="POST" action="/titulos/admin" th:object="${titulo}">
+		
+		
+		<div class="panel panel-primary">
+  			<div class="panel-heading">
+  				<div class="clearfix">
+  					<h1 class="panel-title rb-titulo-panel">Adicionar Local</h1>
+  					<a class="btn btn-link rb-link-panel" href="/titulos">Voltar para Pesquisa</a>
+  				</div>
+  			</div>
+  		
+  			<br />
+  			<div class="form-group">
+  					<label for="local" class="col-sm-2 control-label">Local</label>
+  					<div class="col-sm-2">
+  						<input type="text" class="form-control" />
+  					</div>
+  				</div>
+  		
+  		  			  		
+  				<div class="form-group">
+  					<div class="col-sm-offset-2 col-sm-10">
+  						<button type="submit" class="btn btn-primary">Salvar</button>
+  					</div>
+  				</div>
+  			
+  					
+  		
+  		</div>		
+  	
+	</form>
+
+
+	
+</section>
+
+</html>

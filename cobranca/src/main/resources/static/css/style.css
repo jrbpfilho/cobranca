@@ -1,0 +1,23 @@
+.navbar-brand {
+	padding-top: 12px;
+}
+
+.panel-primary {
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.rb-link-panel {
+	
+	float:right;
+	color: white;
+	font-weight: bold;
+	padding: 0px;
+}
+
+.rb-titulo-panel {
+	
+	float:left;
+	padding-top: 2px;
+}
