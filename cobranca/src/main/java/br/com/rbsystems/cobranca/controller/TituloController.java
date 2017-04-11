@@ -85,6 +85,14 @@ public class TituloController {
 		
 	}
 	
+	@RequestMapping(value="{id}" , method = RequestMethod.DELETE)
+	public void excluir(@PathVariable Long id) {
+		
+		titulos.delete(id);
+		
+		return "redirect:/titulos";
+		
+	}
 		
 	@ModelAttribute("todosStatusTitulo")
 	public List<StatusTitulo> todosStatusTitulo() {

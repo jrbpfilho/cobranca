@@ -45,17 +45,6 @@ public class Titulo {
 	@Enumerated(EnumType.STRING)
 	private StatusTitulo status;
 	
-	
-	private String local;
-	
-	public String getLocal() {
-		return local;
-	}
-	
-	public void setLocal(String local) {
-		this.local = local;
-	}
-	
 	public Long getId() {
 		return id;
 	}
